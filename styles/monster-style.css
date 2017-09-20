@@ -1,12 +1,12 @@
 body {
-	background-color: #000000;
+	background-color: black;
 }
 
 /*draggable monster eyes, for fun*/
 #scaryeyes {
 	position: relative;
-	/*border: 1px solid white;*/
-	left: 73%;
+	left: 43%;
+	top: 300px;
 	clear: both;
 	max-width: 150px;
 	text-align: center;
@@ -25,7 +25,7 @@ body {
 }
 
 #eye1 {
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 #eye2, #eye6 {
@@ -69,7 +69,8 @@ body {
 	max-width: 250px;
 	z-index: 4;
 	border-radius: 30%;
-	left: 70%;
+	left: 40%;
+	top: 310px;
 }
 
 #grin img {
