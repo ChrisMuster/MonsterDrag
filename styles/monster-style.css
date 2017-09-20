@@ -1,0 +1,79 @@
+body {
+	background-color: #000000;
+}
+
+/*draggable monster eyes, for fun*/
+#scaryeyes {
+	position: relative;
+	/*border: 1px solid white;*/
+	left: 73%;
+	clear: both;
+	max-width: 150px;
+	text-align: center;
+}
+
+#eye1, #eye5 {
+	position: relative;
+	border: 1px solid red;
+	border-radius: 50%;
+	height: 37px;
+	width: 50px;
+	background-color: #fdd;
+	clear: both;
+	display: inline-block;
+	z-index: 5;
+}
+
+#eye1 {
+	margin-right: 10px;
+}
+
+#eye2, #eye6 {
+	position: relative;
+	margin: auto;
+	border: 1px solid orange;
+	border-radius: 50%;
+	height: 33px;
+	width: 33px;
+	background-color: yellow;
+	z-index: 6;
+}
+
+#eye3, #eye7 {
+	position: relative;
+	margin: auto;
+	top: 18%;
+	border: 3px solid brown;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background-color: black;
+	z-index: 7;
+}
+
+#eye4, #eye8 {
+	position: relative;
+	margin: auto;
+	bottom: 30%;
+	left: 10%;
+	border: 2px solid white;
+	border-radius: 50%;
+	height: 2px;
+	width: 2px;
+	background-color: white;
+	z-index: 8;
+}
+
+#grin {
+	position: relative;
+	max-width: 250px;
+	z-index: 4;
+	border-radius: 30%;
+	left: 70%;
+}
+
+#grin img {
+	width: 250px;
+	border-radius: 50%;
+	padding: 0px;
+}
