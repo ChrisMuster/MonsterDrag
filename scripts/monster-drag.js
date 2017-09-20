@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	grinny();
+	window.onfocus = grinny;
 //code to drag eyes around the screen, for fun
 	$("#eye1").draggable();
 	$("#eye5").draggable();
